@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<pfsensepkgs>
+	<package>
+		<name>SquidLog</name>
+		<descr><![CDATA[Allow GUI access to squid access logs.]]></descr>
+		<pkginfolink/>
+		<version>%%PKGVERSION%%</version>
+		<configurationfile>squidlog.xml</configurationfile>
+	</package>
+</pfsensepkgs>

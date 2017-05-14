@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE packagegui SYSTEM "../schema/packages.dtd">
+<?xml-stylesheet type="text/xsl" href="../xsl/package.xsl"?>
+<packagegui>
+	<copyright>
+<![CDATA[
+/*
+ * squidlog.xml
+ */
+	]]>
+	</copyright>
+	<description>SquidLog</description>
+	<name>SquidLog</name>
+	<title>Status: SquidLog</title>
+	<aftersaveredirect>/pkg.php?xml=squidlog.xml</aftersaveredirect>
+	<menu>
+		<name>SquidLog</name>
+		<section>Status</section>
+		<configfile>squidlog.xml</configfile>
+		<url>/pkg.php?xml=squidlog.xml</url>
+	</menu>
+	<tabs>
+		<tab>
+			<text>Log Viewer</text>
+			<url>/squidlog_viewer.php</url>
+			<active/>
+		</tab>
+	</tabs>
+	<configpath>installedpackages->package->$packagename->configuration->squidlog</configpath>
+</packagegui>
